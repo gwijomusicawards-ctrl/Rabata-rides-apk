@@ -1,0 +1,3 @@
+import Link from "next/link";
+import WhatsAppSupport from "@/components/WhatsAppSupport";
+export default function MaintenancePage(){return <main className="auth-shell"><section className="auth-card"><div className="brand"><span className="brand-mark">R</span><span>RABALATA <b>RIDES</b></span></div><div className="eyebrow">TEMPORARILY OFFLINE</div><h1>We’ll be back on the road soon.</h1><p className="muted">Rabalata Rides is undergoing scheduled maintenance. Please check back shortly.</p><div className="btn full"><WhatsAppSupport/></div><p className="muted tiny">Developed by Otsile Graphics © 2026</p><Link href="/login" className="text-button">Administrator sign in</Link></section></main>}
