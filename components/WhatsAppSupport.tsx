@@ -1,0 +1,3 @@
+"use client";
+import { useEffect, useState } from "react";
+export default function WhatsAppSupport(){const [phone,setPhone]=useState("079 8462 966");useEffect(()=>{fetch("/api/site").then(r=>r.json()).then(d=>{if(typeof d.support_phone==="string"&&d.support_phone.trim())setPhone(d.support_phone);}).catch(()=>{});},[]);const digits=phone.replace(/\D/g,"");const international=digits.startsWith("0")?"27"+digits.slice(1):digits;return <a href={`https://wa.me/${international}?text=Hello%20Rabalata%20Rides%2C%20I%20need%20help%20with%20the%20app.`} target="_blank" rel="noreferrer">WhatsApp support</a>}
