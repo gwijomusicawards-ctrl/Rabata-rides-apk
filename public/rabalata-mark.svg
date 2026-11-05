@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 220" role="img" aria-label="Rabalata Rides logo">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1a8"/><stop offset=".35" stop-color="#f5b900"/><stop offset="1" stop-color="#a86b00"/></linearGradient><filter id="s"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="5" y="5" width="690" height="210" rx="34" fill="#090b0f" stroke="url(#g)" stroke-width="5"/>
+<path d="M54 158 L108 57 L154 57 L205 158 L161 158 L130 96 L98 158Z" fill="none" stroke="url(#g)" stroke-width="13" stroke-linejoin="round" filter="url(#s)"/>
+<text x="225" y="112" font-family="Montserrat,Arial,sans-serif" font-size="61" font-weight="900" fill="#fff" letter-spacing="-3">RABALATA</text>
+<text x="228" y="174" font-family="Montserrat,Arial,sans-serif" font-size="55" font-weight="900" fill="url(#g)" letter-spacing="1">RIDES</text>
+<path d="M225 187 H620" stroke="url(#g)" stroke-width="3"/>
+</svg>
